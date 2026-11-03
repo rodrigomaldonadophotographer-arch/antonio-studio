@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Antonio Altamirano · Barber & Beauty Salon en Ixtapa, Puerto Vallarta. Conoce sus servicios y reserva tu cita.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+  <title>Antonio Altamirano | Barber & Beauty Salon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="header-brand" href="#inicio" aria-label="Antonio Altamirano, inicio">
+      <span class="brand-photo"><img src="images/logo-perfil-origen.png" alt=""></span>
+      <span class="brand-name">ANTONIO <b>STUDIO</b></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos realizados</a>
+      <a href="#contacto">Ubicación</a>
+    </nav>
+    <a class="button button-small reserve-trigger" href="#reservar">RESERVAR</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> BARBER & BEAUTY SALON · IXTAPA</p>
+        <p class="hero-kicker">CUIDADO PERSONAL CON ESTILO</p>
+        <h1>Tu estilo,<br><em>en su mejor versión.</em></h1>
+        <p class="hero-description">Cortes, color y belleza para cada ocasión. Descubre los servicios de Antonio Studio y encuentra el estilo que va contigo.</p>
+        <div class="hero-actions">
+          <a class="button reserve-trigger" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#trabajos">TRABAJOS REALIZADOS <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta"><span>✦</span> Ixtapa, Puerto Vallarta <i></i> Atención con cita</div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <img src="images/interior-salon.png" alt="Interior de Antonio Studio en Ixtapa" fetchpriority="high">
+          <div class="image-caption"><span>ANTONIO STUDIO</span><span>BARBER & BEAUTY SALON</span></div>
+        </div>
+        <span class="floating-seal">BARBER · BEAUTY · IXTAPA</span>
+      </div>
+    </section>
+
+    <section class="intro section-shell reveal">
+      <p class="eyebrow"><span></span> UNA EXPERIENCIA A TU MEDIDA</p>
+      <h2>El detalle hace<br><em>todo el estilo.</em></h2>
+      <p>Desde un corte preciso hasta un look especial para tu evento, aquí puedes explorar el trabajo y elegir el servicio para tu próxima visita.</p>
+    </section>
+
+    <section class="services section-shell" id="servicios">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span></span> SERVICIOS</p><h2>Encuentra tu <em>estilo.</em></h2></div>
+        <p>Elige el servicio que buscas y reserva tu cita directamente.</p>
+      </div>
+      <div class="services-list">
+        <article class="service-card reveal" style="--card-index:0; --card-top:78px">
+          <div class="service-number">01 <span>BARBERÍA</span></div>
+          <div class="service-photo crop-cuts"><img src="images/referencia-cortes.png" alt="Corte degradado de barbería" loading="lazy"></div>
+          <div class="service-copy"><h3>Corte y cuidado de barba</h3><p>Estilo limpio, precisión en el corte y atención a los detalles.</p></div>
+          <a class="button button-outline reserve-trigger" data-service="Corte y cuidado de barba" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="service-card reveal" style="--card-index:1; --card-top:90px">
+          <div class="service-number">02 <span>COLOR</span></div>
+          <div class="service-photo crop-color"><img src="images/referencia-color.png" alt="Cabello con color y babylights" loading="lazy"></div>
+          <div class="service-copy"><h3>Color y efectos</h3><p>Mechas, babylights y propuestas de color para renovar tu look.</p></div>
+          <a class="button button-outline reserve-trigger" data-service="Color y efectos (tinte, mechas o babylights)" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="service-card reveal" style="--card-index:2; --card-top:102px">
+          <div class="service-number">03 <span>EVENTOS</span></div>
+          <div class="service-photo crop-event"><img src="images/referencia-eventos.png" alt="Estilismo para celebración" loading="lazy"></div>
+          <div class="service-copy"><h3>Peinado y maquillaje</h3><p>Estilismo social para celebraciones, quinceañeras y momentos especiales.</p></div>
+          <a class="button button-outline reserve-trigger" data-service="Peinado y maquillaje para evento" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="service-card reveal" style="--card-index:3; --card-top:114px">
+          <div class="service-number">04 <span>CUIDADO</span></div>
+          <div class="service-photo crop-care"><img src="images/referencia-color.png" alt="Detalle de cabello para cuidado y extensiones" loading="lazy"></div>
+          <div class="service-copy"><h3>Tratamientos y extensiones</h3><p>Opciones de cuidado capilar y extensiones; consulta disponibilidad y detalles.</p></div>
+          <a class="button button-outline reserve-trigger" data-service="Tratamientos y extensiones" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <p class="price-note">Servicios, disponibilidad y precios sujetos a confirmación al reservar.</p>
+    </section>
+
+    <section class="work-section" id="trabajos">
+      <div class="section-shell">
+        <div class="section-heading work-heading reveal">
+          <div><p class="eyebrow"><span></span> EL SELLO DE ANTONIO STUDIO</p><h2>Trabajos <em>realizados.</em></h2></div>
+          <p>Cortes, color y estilismo para distintas ocasiones.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <div class="work-image crop-cuts"><img src="images/referencia-cortes.png" alt="Corte degradado realizado en Antonio Studio" loading="lazy"><span class="work-index">01 / BARBERÍA</span></div>
+            <div class="work-caption"><span>CORTE · DEGRADADO</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-cuts-right"><img src="images/referencia-cortes.png" alt="Perfil de corte y acabado de barbería" loading="lazy"><span class="work-index">02 / BARBERÍA</span></div>
+            <div class="work-caption"><span>PERFIL · ACABADO</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-color"><img src="images/referencia-color.png" alt="Trabajo de color y babylights" loading="lazy"><span class="work-index">03 / COLOR</span></div>
+            <div class="work-caption"><span>COLOR · BABYLIGHTS</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-event"><img src="images/referencia-eventos.png" alt="Detalle de estilismo para quinceañera" loading="lazy"><span class="work-index">04 / EVENTOS</span></div>
+            <div class="work-caption"><span>ESTILISMO · CELEBRACIONES</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-cut-beard"><img src="images/referencia-cortes.png" alt="Corte de cabello con barba perfilada" loading="lazy"><span class="work-index">05 / BARBERÍA</span></div>
+            <div class="work-caption"><span>CORTE · BARBA</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-cut-side"><img src="images/referencia-cortes.png" alt="Detalle lateral de corte masculino" loading="lazy"><span class="work-index">06 / BARBERÍA</span></div>
+            <div class="work-caption"><span>DETALLE · ESTILO</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-color-detail"><img src="images/referencia-color.png" alt="Detalle de color y reflejos en el cabello" loading="lazy"><span class="work-index">07 / COLOR</span></div>
+            <div class="work-caption"><span>REFLEJOS · COLOR</span><span>↗</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-image crop-studio"><img src="images/interior-salon.png" alt="Interior de Antonio Studio" loading="lazy"><span class="work-index">08 / ESTUDIO</span></div>
+            <div class="work-caption"><span>EL ESPACIO · ANTONIO</span><span>↗</span></div>
+          </article>
+        </div>
+        <p class="gallery-note">Galería de referencia con publicaciones compartidas para esta muestra.</p>
+      </div>
+    </section>
+
+    <section class="booking-band" id="reservar">
+      <div class="booking-inner section-shell reveal">
+        <div class="booking-copy"><p class="eyebrow"><span></span> TU PRÓXIMO LOOK COMIENZA AQUÍ</p><h2>Agenda tu<br><em>próxima visita.</em></h2><p>Elige el servicio, el día y la hora. Antonio Studio confirmará la disponibilidad.</p></div>
+        <form class="reservation-form" id="reservation-form">
+          <label class="booking-field booking-service">Servicio
+            <select name="service" id="reservation-service" required>
+              <option value="" selected disabled>Selecciona un servicio</option>
+              <option>Corte y cuidado de barba</option>
+              <option>Color y efectos (tinte, mechas o babylights)</option>
+              <option>Peinado y maquillaje para evento</option>
+              <option>Tratamientos y extensiones</option>
+              <option>Otro servicio</option>
+            </select>
+          </label>
+          <label class="booking-field">Fecha
+            <input type="date" name="date" id="reservation-date" required>
+          </label>
+          <label class="booking-field">Hora
+            <input type="time" name="time" required>
+          </label>
+          <label class="booking-field booking-notes">Observaciones
+            <textarea name="observations" rows="3" placeholder="Cuéntanos algún detalle para tu cita"></textarea>
+          </label>
+          <button class="button reservation-submit" type="submit">RESERVAR <span aria-hidden="true">↗</span></button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contacto">
+      <div class="contact-copy reveal">
+        <p class="eyebrow"><span></span> VISÍTANOS EN IXTAPA</p>
+        <h2>Nos vemos<br><em>en el estudio.</em></h2>
+        <p class="contact-address">Av. Cardenal #111<br>Frente a Repostería Chatos<br>Ixtapa, Puerto Vallarta, Jalisco</p>
+        <div class="contact-actions">
+          <a class="button reserve-trigger" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Av.+Cardenal+111+Ixtapa+Puerto+Vallarta+Jalisco">CÓMO LLEGAR <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="phone-link" href="tel:+523221273314">+52 322 127 3314</a>
+        <a class="social-link" href="https://www.instagram.com/antoniostudio007/" target="_blank" rel="noopener">INSTAGRAM <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-image reveal"><img src="images/interior-salon.png" alt="Área de atención de Antonio Studio" loading="lazy"><span>ANTONIO ALTAMIRANO<br>BARBER & BEAUTY SALON</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#inicio">ANTONIO <span>STUDIO</span></a><span>Barber & Beauty Salon · Ixtapa</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+  <div class="mobile-reserve"><a class="button reserve-trigger" href="#reservar">RESERVAR <span aria-hidden="true">↗</span></a></div>
+  <div class="dialog-toast" role="status" aria-live="polite"></div>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
